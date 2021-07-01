@@ -1,0 +1,55 @@
+h1 {color: aquamarine}
+.menu{
+    background-color: #d2691e ;
+    display:flex;
+    justify-content: space-between;
+    padding: 15px;
+    font-size: 20px;
+    font-weight:400;
+    color: #8a2be2;
+}
+
+body{
+    margin:0px;
+    background-color: #ff7850;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap ;
+}
+.image{
+    background-image: url("images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+}
+.bodyimg{
+    position: relative;
+}
+.bodyimg p{
+    color: darkmagenta;
+    font-size: 20px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 10%;
+    left: 50;
+    transform: translate(-50%,-50%);
+}
+.origami{
+    border-radius: 20px;
+    background-color: #6495ed;
+    padding: 30px;
+    margin: 25px;
+    width: 310px;
+    font-family:fantasy;
+}
+.origami:hover{
+    transform: scale(1.2);
+}
+a:link{
+    color: cornflowerblue;
+}
+a:visited{
+    color: crimson;
+}
